@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject target;
-    public GameObject subCharacterPrefab;
     public GameObject destinationPoint;
     public GameObject spawnPoint;
     public List<GameObject> subCharacters;
+    public int currentCharacterCount = 1; // Including main character
 
 
     void Start()
@@ -26,6 +25,7 @@ public class GameManager : MonoBehaviour
                 {
                     item.transform.position = spawnPoint.transform.position; // Set the position of the subCharacter to the spawnPoint
                     item.SetActive(true);
+                    currentCharacterCount++;
                     break; // To prevent all subCharacters to be activated
                 }
             }
