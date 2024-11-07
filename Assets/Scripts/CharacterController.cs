@@ -33,9 +33,10 @@ public class CharacterController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "x2" || other.name == "+3" || other.name == "-4" || other.name == "/2") // Check if the character hits the numeric blocks
+        if (other.CompareTag("Addition") || other.CompareTag("Subtraction") || other.CompareTag("Multipication") || other.CompareTag("Division")) // Check if the character hits the numeric blocks
         {
-            gameManagerScript.CharacterManagement(other.name, other.transform); // Call the CharacterManagement method in the GameManager script }
+            int number = int.Parse(other.name);
+            gameManagerScript.CharacterManagement(other.tag, number, other.transform); // Call the CharacterManagement method in the GameManager script
         }
     }
 }

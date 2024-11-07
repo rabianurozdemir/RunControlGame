@@ -1003,8 +1003,8 @@ GameObject:
   - component: {fileID: 58051150}
   - component: {fileID: 58051149}
   m_Layer: 0
-  m_Name: /2
-  m_TagString: Untagged
+  m_Name: 2
+  m_TagString: Division
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14354,8 +14354,8 @@ GameObject:
   - component: {fileID: 926453007}
   - component: {fileID: 926453008}
   m_Layer: 0
-  m_Name: x2
-  m_TagString: Untagged
+  m_Name: 2
+  m_TagString: Multipication
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23229,7 +23229,6 @@ MonoBehaviour:
   - {fileID: 2001971542}
   - {fileID: 1000339614}
   - {fileID: 1494282922}
-  currentCharacterCount: 1
 --- !u!4 &1445857925
 Transform:
   m_ObjectHideFlags: 0
@@ -23901,8 +23900,8 @@ GameObject:
   - component: {fileID: 1481475138}
   - component: {fileID: 1481475137}
   m_Layer: 0
-  m_Name: +3
-  m_TagString: Untagged
+  m_Name: 3
+  m_TagString: Addition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25630,8 +25629,8 @@ GameObject:
   - component: {fileID: 1569985294}
   - component: {fileID: 1569985293}
   m_Layer: 0
-  m_Name: -4
-  m_TagString: Untagged
+  m_Name: 4
+  m_TagString: Subtraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -26,7 +26,7 @@ public class SubCharacterController : MonoBehaviour
     {
         if (other.CompareTag("NeedleBox"))
         {
-            GameObject.FindWithTag("GameManager").GetComponent<GameManager>().currentCharacterCount--;
+            GameManager.currentCharacterCount--;
             gameObject.SetActive(false);
         }
     }

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - GameManager
   - NeedleBox
+  - Addition
+  - Subtraction
+  - Multipication
+  - Division
   layers:
   - Default
   - TransparentFX
